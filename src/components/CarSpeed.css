@@ -1,0 +1,37 @@
+/* src/CarSpeed.css */
+.car-speed-container {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .high-speed {
+    border: 3px solid red;
+  }
+  
+  .normal-speed {
+    border: 3px solid transparent;
+  }
+  
+  .speed-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .high-speed-text {
+    color: red;
+  }
+  
+  .normal-speed-text {
+    color: black;
+  }
+  
